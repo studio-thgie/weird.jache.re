@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/"/>
+    <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+
+    <meta name="generator" content="pancake.sh" />
+    $for(author-meta)$
+    <meta name="author" content="$author-meta$" />
+    $endfor$
+    $if(date-meta)$
+    <meta name="date" content="$date-meta$" />
+    $endif$
+
+    <link rel="stylesheet" href="/assets/template/archive.css">
+
+</head>
+<body>
+
+    <nav role="navigation">
+        <ul class="nav-h">
+            <li><a target="_self" href="/">Home</a></li>
+	        <li><a target="_self" href="/pages/journal.html">Journal</a></li>
+	        <li><a target="_self" href="/pages/texts-and-talks.html">Texts and Talks</a></li>
+	        <li><a target="_self" href="/pages/notes.html">Notes</a></li>
+	        <li><a target="_self" href="/fp1/index.html">Fallow Zine 1</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main role="main">
+        $if(date-meta)$
+        <p style="font-size: 0.9rem; font-style: italic;">
+            Posted on <span>$date-meta$</span>.
+        </p>
+        $endif$
+
+        $body$
+    </main>
+
+    <footer class="text-sm">
+        <p class="flex">
+        </p>
+        <p>All content, where not noted otherwise on <a href="https://dissertation.thgie.ch">dissertation.thgie.ch</a> is released and distributed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC-BY-SA 4.0 license</a>.</p>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('p').forEach(el => {
+                if(el.querySelectorAll('img').length > 1) {
+                    el.classList.add('gallery')
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>
