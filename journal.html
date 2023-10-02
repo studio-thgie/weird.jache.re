@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/"/>
+    <title>Journal</title>
+
+    <meta name="generator" content="pancake.sh" />
+        <meta name="author" content="Adrian Demleitner" />
+        
+    <link rel="stylesheet" href="/assets/template/archive.css">
+
+</head>
+<body>
+
+    <nav role="navigation">
+        <ul class="nav-h">
+            <li><a target="_self" href="/">Home</a></li>
+	        <li><a target="_self" href="/pages/journal.html">Journal</a></li>
+	        <li><a target="_self" href="/pages/texts-and-talks.html">Texts and Talks</a></li>
+	        <li><a target="_self" href="/pages/notes.html">Notes</a></li>
+	        <li><a target="_self" href="/fp1/index.html">Fallow Zine 1</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main role="main">
+        
+        <h1 id="journal">Journal</h1>
+        <table>
+        <colgroup>
+        <col style="width: 41%" />
+        <col style="width: 5%" />
+        <col style="width: 53%" />
+        </colgroup>
+        <thead>
+        <tr class="header">
+        <th>Title</th>
+        <th>Date</th>
+        <th>Tags</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="odd">
+        <td><a href="journal/2023-10-02.html"><strong>Unlikely Allies: How
+        Renaissance Art and Renewable Energy Unite in Creativity and
+        Sustainability</strong></a></td>
+        <td>October 02, 2023</td>
+        <td>Renaissance Art, Renewable Energy Technologies,
+        Sustainability, Artistry of Engineering, Intersection of Art and
+        Science</td>
+        </tr>
+        <tr class="even">
+        <td><a href="journal/2023-10-01.html">Quantum Mechanics in the
+        Kitchen: Exploring the Quantum World of Italian Cuisine</a></td>
+        <td>October 01, 2023</td>
+        <td>QuantumCuisine, ItalianFlavors, FoodScience, PastaPhysics,
+        CulinaryQuantum, FlavorEntanglement, SchrödingersRisotto,
+        EspressoEnergies, TasteQuantum, GourmetPhysics</td>
+        </tr>
+        </tbody>
+        </table>
+    </main>
+
+    <footer class="text-sm">
+        <p class="flex">
+        </p>
+        <p>All content, where not noted otherwise on <a href="https://dissertation.thgie.ch">dissertation.thgie.ch</a> is released and distributed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC-BY-SA 4.0 license</a>.</p>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('p').forEach(el => {
+                if(el.querySelectorAll('img').length > 1) {
+                    el.classList.add('gallery')
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>

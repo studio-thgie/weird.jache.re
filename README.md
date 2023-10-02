@@ -1,2 +1,0 @@
-# weird-articles
-

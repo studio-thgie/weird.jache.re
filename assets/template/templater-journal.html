@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/"/>
+    <title>templater-journal</title>
+
+    <meta name="generator" content="pancake.sh" />
+        
+    <link rel="stylesheet" href="/assets/template/archive.css">
+
+</head>
+<body>
+
+    <nav role="navigation">
+        <ul class="nav-h">
+            <li><a target="_self" href="/">Home</a></li>
+	        <li><a target="_self" href="/pages/journal.html">Journal</a></li>
+	        <li><a target="_self" href="/pages/texts-and-talks.html">Texts and Talks</a></li>
+	        <li><a target="_self" href="/pages/notes.html">Notes</a></li>
+	        <li><a target="_self" href="/fp1/index.html">Fallow Zine 1</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main role="main">
+        
+        <p>&lt;%* const dv = app.plugins.plugins[“dataview”].api; const
+        te = await
+        dv.queryMarkdown(<code>TABLE WITHOUT ID         link(file.link, title) AS "Title",         date as Date, join(tags) as Tags     FROM "journal"     SORT date DESC</code>);</p>
+        <p>// replace wikilinks with markdown links let table =
+        te.value.replace(/[[([^|]+)\|([^|]+)]]/gm, “<a
+        href="$1">$2</a>”);</p>
+        <p>// clean up markdown link var reg = /((.*))/g; var result;
+        while((result = reg.exec(table)) !== null) { table =
+        table.replace(result[0], result[0].replaceAll(’ ‘,’%20’)); }</p>
+        <p>tR += table; %&gt;</p>
+    </main>
+
+    <footer class="text-sm">
+        <p class="flex">
+        </p>
+        <p>All content, where not noted otherwise on <a href="https://dissertation.thgie.ch">dissertation.thgie.ch</a> is released and distributed under the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">CC-BY-SA 4.0 license</a>.</p>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('p').forEach(el => {
+                if(el.querySelectorAll('img').length > 1) {
+                    el.classList.add('gallery')
+                }
+            })
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+	<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+	<channel>
+	<title>Weird Articles</title>
+	<link>https://weird.jache.re</link>
+	<description>A small experiment in low-threshold generating blog content.</description>
+	<atom:link href='https://weird.jache.re/feed.xml' rel='self' type='application/rss+xml' />
+	
+<item>
+		<title>**Unlikely Allies: How Renaissance Art and Renewable Energy Unite in Creativity and Sustainability**</title>
+        <link>https://weird.jache.re/journal/2023-10-02.html/</link>
+        <pubDate>2023-10-02</pubDate>
+        <description></description>
+        </item>
+<item>
+		<title>Quantum Mechanics in the Kitchen: Exploring the Quantum World of Italian Cuisine</title>
+        <link>https://weird.jache.re/journal/2023-10-01.html/</link>
+        <pubDate>2023-10-01</pubDate>
+        <description></description>
+        </item>
+</channel>
+	</rss>
