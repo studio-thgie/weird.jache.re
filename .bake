@@ -1,0 +1,17 @@
+BRANCHES:
+  MAIN: main
+  DEPLOY: pages
+FILES:
+  TEMPLATES: assets/template
+  DEFAULT_TEMPLATE: default
+  BIBTEX: 
+IMAGES:
+  OPTIMIZE: true
+  COLORS: 10
+  DIMENSIONS: 960
+BLOG:
+  RSS: true
+  PATH: journal
+  TITLE: "Weird Articles"
+  DESCRIPTION: "A small experiment in low-threshold generating blog content."
+  URL: "https://weird.jache.re"
