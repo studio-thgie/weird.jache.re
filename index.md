@@ -1,7 +1,7 @@
 ---
-title: Journal
+title: Weird Articles
 created: 2023-09-12T21:28
-updated: 2023-10-02T07:50
+updated: 2023-10-02T08:02
 author: Adrian Demleitner
 ---
 # Journal
