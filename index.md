@@ -1,12 +1,12 @@
 ---
 title: Weird Articles
 created: 2023-09-12T21:28
-updated: 2023-10-02T08:08
+updated: 2023-10-02T08:09
 author: Adrian Demleitner
 ---
 # Weird Articles
 
-In an era where technology continually reshapes the boundaries of creativity, the fusion of human ingenuity with artificial intelligence has emerged as a captivating avenue for artistic expression. This blog post delves into the intriguing world of using AI-generated content as the centerpiece of an art project, an endeavor that transcends conventional notions of authorship and provokes profound reflections on the evolving relationship between humanity and machines. Exploring this intersection between human creativity and machine intelligence unravels a tapestry of innovation, ethical contemplation, and thought-provoking dialogue that challenges the very essence of art itself.[^1]
+In an era where technology continually reshapes the boundaries of creativity, the fusion of human ingenuity with artificial intelligence has emerged as a captivating avenue for artistic expression. This blog posts delves into the intriguing world of using AI-generated content as the centerpieces of an art project, an endeavor that transcends conventional notions of authorship and provokes profound reflections on the evolving relationship between humanity and machines. Exploring this intersection between human creativity and machine intelligence unravels a tapestry of innovation, ethical contemplation, and thought-provoking dialogue that challenges the very essence of art itself.[^1]
 
 | Title                                                                                                                           | Date             | Tags                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
